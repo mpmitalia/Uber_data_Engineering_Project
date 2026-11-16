@@ -138,7 +138,7 @@ Three datasets keep this reusable:
 
 Ride events are sent to the `uber_topic` event hub using a dedicated **send** policy. Databricks consumes them with a separate **listen** policy, following least-privilege access.
 
-![Event Hubs Data Explorer](docs/images/03_event_hubs_events.png)
+
 
 ### 3. Databricks pipeline: bronze, silver, gold
 
