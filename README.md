@@ -23,7 +23,6 @@ An end-to-end data engineering project that combines **batch** and **streaming**
   - [2. Streaming ingestion with Azure Event Hubs](#2-streaming-ingestion-with-azure-event-hubs)
   - [3. Databricks pipeline: bronze, silver, gold](#3-databricks-pipeline-bronze-silver-gold)
 - [Data Model](#data-model)
-- [Repository Structure](#repository-structure)
 - [How to Run](#how-to-run)
 - [Security Notes](#security-notes)
 - [Cost and Cleanup](#cost-and-cleanup)
@@ -174,28 +173,6 @@ erDiagram
 ```
 
 <!-- Optional: replace the diagram above with a detailed ERD (docs/data_model.png) that lists columns and keys. -->
-
----
-
-## Repository Structure
-
-```
-Uber_data_Engineering_Project/
-├── Code_Files/            # Databricks pipeline code and notebooks
-├── Data/                  # Source JSON files (rides and mapping tables)
-├── templates/             # Templates used by the event producer
-├── api.py                 # Event producer entry point
-├── connection.py          # Event Hubs connection helper
-├── data.py                # Ride event generation / data helpers
-├── files_array.json       # List of files the ADF pipeline ingests
-├── architecture.png       # Architecture diagram
-├── Uber_Project.svg       # Architecture diagram (vector)
-├── pyproject.toml         # Project metadata and dependencies (uv)
-├── requirements.txt       # pip-compatible dependency list
-├── uv.lock                # Locked dependency versions
-├── .python-version
-└── README.md
-```
 
 ---
 
