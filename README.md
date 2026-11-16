@@ -27,8 +27,7 @@ An end-to-end data engineering project that combines **batch** and **streaming**
 - [How to Run](#how-to-run)
 - [Security Notes](#security-notes)
 - [Cost and Cleanup](#cost-and-cleanup)
-- [Future Improvements](#future-improvements)
-- [Author](#author)
+
 
 ---
 
@@ -269,21 +268,4 @@ Azure resources can incur charges while they exist. When finished, delete the wh
 az group delete --name uber_project_rg --yes
 ```
 
----
 
-## Future Improvements
-
-- Add data quality expectations to the Databricks pipeline and track pass/fail counts
-- Add a dashboard or BI report on the gold layer (revenue, cancellations, peak hours)
-- Schedule the pipeline with a Databricks Job
-- Add CI checks (linting and tests) with GitHub Actions
-- Provision Azure resources with Terraform or Bicep for one-command setup
-
----
-
-## Author
-
-**Mahesh Mitalia**
-Final-year Computer Engineering student, D. J. Sanghvi College of Engineering
-
-[LinkedIn](https://linkedin.com/in/maheshmitalia28) | [GitHub](https://github.com/mpmitalia)
