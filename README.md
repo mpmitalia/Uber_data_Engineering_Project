@@ -132,7 +132,7 @@ Three datasets keep this reusable:
 | `DS_files_array` | ADLS Gen2 | `rawjson/files_array.json`, the list of files |
 | `DS_Ingest` | ADLS Gen2 | `rawjson/Ingestion/@{dataset().p_file}.json`, parameterised sink |
 
-![ADF pipeline](docs/images/01_adf_pipeline.png)
+![ADF pipeline](images/ADF_pipeline.png)
 ![Files landed in ADLS](docs/images/02_adls_raw_files.png)
 
 ### 2. Streaming ingestion with Azure Event Hubs
