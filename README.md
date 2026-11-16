@@ -154,7 +154,7 @@ The `Uber_Ride_Ingestion` pipeline contains the transformation code (`ingest.py`
 
 Each gold table is defined through a view over `silver_obt` (`fact_view`, `dim_*_view`) and published as a table.
 
-![Databricks pipeline graph]([https://github.com/mpmitalia/Uber_data_Engineering_Project/blob/main/Images/pipeline_graph.png])
+![Databricks pipeline graph](https://github.com/mpmitalia/Uber_data_Engineering_Project/blob/main/Images/pipeline_graph.png)
 
 
 ---
