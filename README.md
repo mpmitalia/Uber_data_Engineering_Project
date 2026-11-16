@@ -8,7 +8,7 @@
 
 An end-to-end data engineering project that combines **batch** and **streaming** ingestion of ride-booking data on Azure and Databricks. Raw JSON is landed in Azure Data Lake Storage Gen2 by an Azure Data Factory pipeline, live ride events are streamed through Azure Event Hubs, and a Databricks pipeline turns both into a **medallion architecture** (bronze → silver → gold) that ends in a **star schema** ready for analytics.
 
-![Architecture](architecture.png)
+![Architecture](https://github.com/mpmitalia/Uber_data_Engineering_Project/blob/main/Images/architecture.png)
 
 ---
 
